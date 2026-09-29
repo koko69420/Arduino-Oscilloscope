@@ -35,6 +35,23 @@ A compact, DIY digital storage oscilloscope (DSO) and signal analyzer developed 
 
 ---
 
+## Live Waveform Captures & PC Telemetry
+
+The PC data acquisition suite captures raw high-speed serial samples from the ATmega328P ADC conversion engine, providing real-time dual-trace visualization, persistence display, and CSV data export:
+
+### Real-Time Dual-Channel PC Oscilloscope Interface
+<p align="center">
+  <img src="docs/oscilloscope_dual_channel_capture.png" alt="Arduino Oscilloscope Dual Channel PC GUI Capture" width="800">
+</p>
+
+### Single-Channel Signal Analysis & Trigger Synchronization
+
+| Detailed Waveform View | Fast Sweep Zoom View |
+| :---: | :---: |
+| ![Waveform Capture](docs/oscilloscope_waveform_capture.png) | ![Zoomed Capture](docs/oscilloscope_zoomed_capture.png) |
+
+---
+
 ## Project Structure
 
 ```text
