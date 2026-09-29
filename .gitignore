@@ -1,0 +1,12 @@
+# Binaries & DLLs
+*.exe
+*.dll
+
+# Metadata files
+*.meta
+
+# OS & Editor
+*~
+*.swp
+*.bak
+.DS_Store
